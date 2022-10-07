@@ -1,0 +1,97 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: wheat 3px 2px 2px;
+}
+
+.d-flex {
+    padding-top: 60px;
+}
+
+.main {
+    margin: 0;
+    padding-top: 80px;
+    max-width: 100%;
+    height: 100%;
+    background: rgb(1,41,157);
+    background: linear-gradient(90deg, rgba(1,41,157,0.6166841736694677) 0%, rgba(19,126,142,0.35057773109243695) 18%, rgba(115,141,181,0.3897934173669467) 42%, rgba(104,110,153,0.3449754901960784) 60%, rgba(27,177,209,0.3085609243697479) 80%, rgba(0,26,255,0.5410539215686274) 100%);
+
+}
+
+.memberchat {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 2em;
+    padding-bottom: 100px;
+}
+.fotomemberchat {
+    text-align: center;
+    flex-wrap:wrap;
+    padding: 24px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    gap: 10em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.fotomemberchat:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+ .fotomemberchat >img {
+    border-radius: 40%;  /* Скругление углов изображения */
+    box-shadow: 2px 1px 5px #999999;
+}
+h1 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    padding-bottom: 45px;
+}
+.nav-item {
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link {
+    color: darkslategray;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.nav-link:hover {
+    color: cornflowerblue;
+    transform: scale(1.3);
+}
+
+.galleria{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    max-width: 800px;
+    width: 100%;
+}
+.hopa {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.mygalery {
+
+}

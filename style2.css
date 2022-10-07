@@ -1,0 +1,11 @@
+.galleria {
+    position: relative;
+    width: 520px;
+    height: 754px;
+}
+
+.hopa {
+    display:flex;
+    justify-content: center;
+    padding-top: 150px;
+}
