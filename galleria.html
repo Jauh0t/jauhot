@@ -1,25 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PicsChatX</title>
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link rel="stylesheet" href="style2.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="galleria/dist/galleria.min.js"></script>
 </head>
-<body>
-<div class="hopa">
-  <div class="galleria">
-    <img src="images/photo7.jpg">
-    <img src="images/photo6.jpg">
-    <img src="images/photo5.jpg.">
-  </div>
-  <script>
-    Galleria.loadTheme('galleria/dist/themes/azur/galleria.azur.min.js');
-    Galleria.run('.galleria');
-  </script>
-</div>
 
+<body>
+<section class="gallery">
+    <h2 class="title">Pics</h2>
+    <div class="gallery-list">
+        <a href="images/photo3.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo3.jpg" alt="alt">
+        </a>
+        <a href="images/photo4.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo4.jpg" alt="alt">
+        </a>
+        <a href="images/photo5.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo5.jpg" alt="alt">
+        </a>
+        <a href="images/photo6.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo6.jpg" alt="alt">
+        </a>
+        <a href="images/photo8.jpg.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo8.jpg" alt="alt">
+        </a>
+        <a href="images/photo9.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo9.jpg" alt="alt">
+        </a>
+        <a href="images/photo10.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo10.jpg" alt="alt">
+        </a>
+        <a href="images/photo11.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo11.jpg" alt="alt">
+        </a>
+        <a href="images/photo12.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo12.jpg" alt="alt">
+        </a>
+        <a href="images/photo13.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo13.jpg" alt="alt">
+        </a>
+        <a href="images/photo14.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo14.jpg" alt="alt">
+        </a>
+        <a href="images/photo15.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo15.jpg" alt="alt">
+        </a>
+        <a href="images/photo16.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo16.jpg" alt="alt">
+        </a>
+        <a href="images/photo17.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo17.jpg" alt="alt">
+        </a>
+        <a href="images/photo18.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo18.jpg" alt="alt">
+        </a>
+        <a href="images/photo19.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo19.jpg" alt="alt">
+        </a>
+        <a href="images/photo20.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo20.jpg" alt="alt">
+        </a>
+        <a href="images/photo21.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo21.jpg" alt="alt">
+        </a>
+        <a href="images/photo22.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo22.jpg" alt="alt">
+        </a>
+        <a href="images/photo23.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="images/photo23.jpg" alt="alt">
+        </a>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script>
+    $(".gallery-list").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+            enabled: true
+        }
+    });
+</script>
 </body>
+
 </html>
